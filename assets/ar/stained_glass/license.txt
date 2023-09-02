@@ -1,0 +1,11 @@
+Model Information:
+* title:	Stained Glass
+* source:	https://sketchfab.com/3d-models/stained-glass-a8d2e3d54ec54b67b5ddd92d82c4d6b1
+* author:	Amatsukast (https://sketchfab.com/Amatsukast)
+
+Model License:
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Stained Glass" (https://sketchfab.com/3d-models/stained-glass-a8d2e3d54ec54b67b5ddd92d82c4d6b1) by Amatsukast (https://sketchfab.com/Amatsukast) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
