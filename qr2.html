@@ -1,29 +1,36 @@
-<!DOCTYPE HTML>
-<!--
-	Transit by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
--->
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- this line calls aframe -->
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+    <!-- this line calls the AR.js component to be used for aframe and finds the source of different assets like the description of 3D objects, the camera calibration-->
+    <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.0/aframe/build/aframe-ar.js"></script>
+</head>
+<body style='margin : 0px; overflow: hidden;'>
+<a-scene embedded arjs='sourceType: webcam;'>
+    <a-marker-camera preset='hiro'>
+        <a-entity position="0 0 0" scale="0.2 0.2 0.2" gltf-model="https://cdn.glitch.com/0f662680-b46a-4a86-bc3e-660c29752c5a%2FMosque.gltf?v=1611234341037"></a-entity>
+    </a-marker-camera>
+</a-scene>
+</body>
+</html>
+
+<!--<html>
 	<head>
 		<title>Untitled</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-        <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+        <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
         <script src="https://raw.githack.com/jeromeetienne/AR.js/master/aframe/build/aframe-ar.min.js"></script>
+        <script src="https://raw.githack.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
 	</head>
 	<body style='margin : 0px; overflow: hidden;'>
-        <a-scene embedded arjs='trackingMethod: best;'>
-              <a-gltf-model src="https://rawgit.com/KhronosGroup/glTF-Sample-Models/master/2.0/DamagedHelmet/glTF/DamagedHelmet.gltf"></a-gltf-model>
-              <a-marker-camera preset='hiro'></a-marker-camera>
-              <a-camera-static/>
-            </a-scene>
-        <!-- we add detectionMode and matrixCodeType to tell AR.js to recognize barcode markers -->
-        <!--<a-scene embedded vr-mode-ui="enabled: false" arjs='sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
+         we add detectionMode and matrixCodeType to tell AR.js to recognize barcode markers 
+        <a-scene embedded vr-mode-ui="enabled: false" arjs='sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
 
         <a-assets>
-            <a-asset-item id="animated-asset" src="https://raw.githubusercontent.com/churchstories/churchstories.github.io/master/assets/ar/stained_glass/scene.gltf"></a-asset-item>
+            <a-asset-item id="animated-asset" src="./models/cesiumman.gltf"></a-asset-item>
         </a-assets>
 
         <a-marker markerhandler emitevents="true" cursor="rayOrigin: mouse" id="animated-marker" type='barcode' value='6'>
@@ -35,6 +42,6 @@
         </a-marker>
 
         <a-entity camera></a-entity>
-        </a-scene>-->
+        </a-scene>
     </body>
-</html>
+</html>-->
