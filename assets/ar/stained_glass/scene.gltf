@@ -1392,42 +1392,42 @@
   "buffers": [
     {
       "byteLength": 3516864,
-      "uri": "https://churchstories.ie/assets/ar/stained_glass/scene.bin"
+      "uri": "scene.bin"
     }
   ],
   "images": [
     {
-      "uri": "https://churchstories.ie/assets/ar/stained_glass/textures/frame_mt_baseColor.jpeg"
+      "uri": "textures/frame_mt_baseColor.jpeg"
     },
     {
-      "uri": "https://churchstories.ie/assets/ar/stained_glass/textures/frame_mt_metallicRoughness.png"
+      "uri": "textures/frame_mt_metallicRoughness.png"
     },
     {
-      "uri": "https://churchstories.ie/assets/ar/stained_glass/textures/frame_mt_normal.png"
+      "uri": "textures/frame_mt_normal.png"
     },
     {
-      "uri": "https://churchstories.ie/assets/ar/stained_glass/textures/glass02_mt_baseColor.jpeg"
+      "uri": "textures/glass02_mt_baseColor.jpeg"
     },
     {
-      "uri": "https://churchstories.ie/assets/ar/stained_glass/textures/glass02_mt_metallicRoughness.png"
+      "uri": "textures/glass02_mt_metallicRoughness.png"
     },
     {
-      "uri": "https://churchstories.ie/assets/ar/stained_glass/textures/glass02_mt_emissive.png"
+      "uri": "textures/glass02_mt_emissive.png"
     },
     {
-      "uri": "https://churchstories.ie/assets/ar/stained_glass/textures/glass02_mt_normal.png"
+      "uri": "textures/glass02_mt_normal.png"
     },
     {
-      "uri": "https://churchstories.ie/assets/ar/stained_glass/textures/glass01_mt_baseColor.jpeg"
+      "uri": "textures/glass01_mt_baseColor.jpeg"
     },
     {
-      "uri": "https://churchstories.ie/assets/ar/stained_glass/textures/glass01_mt_metallicRoughness.png"
+      "uri": "textures/glass01_mt_metallicRoughness.png"
     },
     {
-      "uri": "https://churchstories.ie/assets/ar/stained_glass/textures/glass01_mt_emissive.png"
+      "uri": "textures/glass01_mt_emissive.png"
     },
     {
-      "uri": "https://churchstories.ie/assets/ar/stained_glass/textures/glass01_mt_normal.png"
+      "uri": "textures/glass01_mt_normal.png"
     }
   ],
   "materials": [
