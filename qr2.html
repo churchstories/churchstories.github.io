@@ -29,6 +29,7 @@
 
         <a-assets>
             <a-asset-item id="animated-asset" src="assets/ar/phoenix_bird/scene.gltf"></a-asset-item>
+            <audio id="sound" src="assets/audio/first_reflection_.mp3" preload="auto"></audio>
         </a-assets>
 
         <a-marker markerhandler emitevents="true" cursor="rayOrigin: mouse" id="animated-marker" type='barcode' value='6'>
@@ -40,7 +41,27 @@
             </a-entity>
         </a-marker>
 
+        <a-entity sound="src: #sound" autoplay="false"></a-entity>
         <a-entity camera></a-entity>
         </a-scene>
     </body>
+    <script>
+        AFRAME.registerComponent('soundhandler', {
+            init: function () {
+                this.soundEl = document.querySelector('[sound]');
+                this.marker = document.querySelector('a-marker');
+                this.visible = false;
+            },
+            tick: function () {
+
+                if (this.marker.object3D.visible && !this.visible) {
+                    this.soundEl.components.sound.stopSound(); // stop if playing
+                    this.soundEl.components.sound.playSound(); // play
+                    this.visible = true; // make sure it plays only once per visible
+                } else if (!this.marker.object3D.visible) {
+                    this.visible = false;
+                }
+            }
+        });
+    </script>
 </html>
