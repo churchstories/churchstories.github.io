@@ -1,0 +1,11 @@
+Model Information:
+* title:	Speaking Man with Talking Gestures
+* source:	https://sketchfab.com/3d-models/speaking-man-with-talking-gestures-c55bcf894e1b4da1adf0cf258fe94c9f
+* author:	LasquetiSpice (https://sketchfab.com/LasquetiSpice)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Speaking Man with Talking Gestures" (https://sketchfab.com/3d-models/speaking-man-with-talking-gestures-c55bcf894e1b4da1adf0cf258fe94c9f) by LasquetiSpice (https://sketchfab.com/LasquetiSpice) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
